@@ -64,6 +64,11 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YjX-p1-PrN" secondAttribute="bottom" id="zHD-St-872"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="leftButton" destination="7kb-bo-ONI" id="hoy-1V-XQO"/>
+                        <outlet property="rightButton" destination="b1o-TW-OiV" id="i8a-vs-e0U"/>
+                        <outlet property="storyTextLabel" destination="74g-id-IeL" id="IZa-yY-bKt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
