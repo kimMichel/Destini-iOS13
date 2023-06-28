@@ -40,6 +40,9 @@
                                         <state key="normal" title="Choice 1" backgroundImage="choice1Background">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t8s-6k-qNH"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="b1o-TW-OiV">
                                         <rect key="frame" x="0.0" y="714" width="374" height="100"/>
@@ -51,6 +54,9 @@
                                         <state key="normal" title="Choice 2" backgroundImage="choice2Background">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rqP-Rc-yPq"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>

@@ -24,11 +24,23 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        updateUI()
+    }
+
+    @IBAction func choiceMade(_ sender: UIButton) {
+        if sender.currentTitle == stories[storyPosition].choice1 {
+            storyPosition += 1
+        } else {
+            storyPosition += 2
+        }
+        updateUI()
+    }
+    
+    func updateUI() {
         storyTextLabel.text = stories[storyPosition].title
         leftButton.setTitle(stories[storyPosition].choice1, for: .normal)
         rightButton.setTitle(stories[storyPosition].choice2, for: .normal)
     }
-
-
+    
 }
 
